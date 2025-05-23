@@ -12,7 +12,7 @@ This study presents a data-driven, interpretable framework that bridges Anomaly 
 Following detection, we apply a two-stage Root Cause Analysis:
 
 1. Clustering of degradation transitions to identify distinct failure modes and track their temporal evolution.
-2. SHAP-based sequential pattern mining on vehicle-level data to group vehicles with similar degradation patterns and uncover consistent feature attributions.
+2. SHAP-based sequential pattern mining on vehicle-level data to group vehicles with similar degradation patterns and uncover consistent feature attributions. In particular, early failure symptoms are identified.
 
 The methodology is validated on real-world industrial data from Component X in the SCANIA Industrial Challenge 2024.
 
@@ -41,7 +41,6 @@ Once the files are placed correctly, the notebooks should run without any furthe
 
 ## Repository Structure
 
-Additional Preprocessing.ipynb  
 EDA and Preprocessing.ipynb  
 Modeling (AD and RCA).ipynb  
 documentation/  
