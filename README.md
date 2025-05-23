@@ -42,6 +42,7 @@ Once the files are placed correctly, the notebooks should run without any furthe
 ## Repository Structure
 
 EDA and Preprocessing.ipynb  
+Model Tuning.py
 Modeling (AD and RCA).ipynb  
 documentation/  
 ├── 2024_IDA_challenge_v2.pdf  
@@ -49,7 +50,7 @@ documentation/
 
 ## Important Note on Notebook Execution Order
 
-The three Jupyter notebooks in this repository are designed to be executed in sequence, as they progressively generate and rely on intermediate data files. Running them out of order may result in missing files or inconsistent results.
+The two Jupyter notebooks and the Python file in this repository are designed to be executed in sequence, as they progressively generate and rely on intermediate data files. Running them out of order may result in missing files or inconsistent results.
 
 Recommended execution order:
 
