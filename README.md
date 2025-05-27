@@ -12,7 +12,7 @@ This study presents a data-driven, interpretable framework that bridges Anomaly 
 Following detection, we apply a two-stage Root Cause Analysis:
 
 1. Clustering of degradation transitions to identify distinct failure modes and track their temporal evolution.
-2. SHAP-based sequential pattern mining on vehicle-level data to group vehicles with similar degradation patterns and uncover consistent feature attributions.
+2. SHAP-based sequential pattern mining on vehicle-level data to group vehicles with similar degradation patterns and uncover consistent feature attributions. In particular, early failure symptoms are identified.
 
 The methodology is validated on real-world industrial data from Component X in the SCANIA Industrial Challenge 2024.
 
@@ -41,8 +41,8 @@ Once the files are placed correctly, the notebooks should run without any furthe
 
 ## Repository Structure
 
-Additional Preprocessing.ipynb  
 EDA and Preprocessing.ipynb  
+Model Tuning.py
 Modeling (AD and RCA).ipynb  
 documentation/  
 ├── 2024_IDA_challenge_v2.pdf  
@@ -50,7 +50,7 @@ documentation/
 
 ## Important Note on Notebook Execution Order
 
-The three Jupyter notebooks in this repository are designed to be executed in sequence, as they progressively generate and rely on intermediate data files. Running them out of order may result in missing files or inconsistent results.
+The two Jupyter notebooks and the Python file in this repository are designed to be executed in sequence, as they progressively generate and rely on intermediate data files. Running them out of order may result in missing files or inconsistent results.
 
 Recommended execution order:
 
